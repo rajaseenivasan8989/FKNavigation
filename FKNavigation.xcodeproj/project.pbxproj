@@ -14,6 +14,8 @@
 		CC0F90D11F6A8466005D550E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0F90CF1F6A8466005D550E /* LaunchScreen.storyboard */; };
 		CC0F90DC1F6A8466005D550E /* FKNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F90DB1F6A8466005D550E /* FKNavigationTests.swift */; };
 		CC0F90E71F6A8466005D550E /* FKNavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F90E61F6A8466005D550E /* FKNavigationUITests.swift */; };
+		CC0F90F51F6A846D005D550E /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F90F41F6A846D005D550E /* FantasticView.swift */; };
+		CC0F90F91F6A8556005D550E /* FKNavigation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CC0F90F81F6A8556005D550E /* FKNavigation.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CC0F90E21F6A8466005D550E /* FKNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FKNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0F90E61F6A8466005D550E /* FKNavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FKNavigationUITests.swift; sourceTree = "<group>"; };
 		CC0F90E81F6A8466005D550E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC0F90F41F6A846D005D550E /* FantasticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
+		CC0F90F81F6A8556005D550E /* FKNavigation.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FKNavigation.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		CC0F90BA1F6A8466005D550E = {
 			isa = PBXGroup;
 			children = (
+				CC0F90F81F6A8556005D550E /* FKNavigation.podspec */,
 				CC0F90C51F6A8466005D550E /* FKNavigation */,
 				CC0F90DA1F6A8466005D550E /* FKNavigationTests */,
 				CC0F90E51F6A8466005D550E /* FKNavigationUITests */,
@@ -99,6 +104,7 @@
 			children = (
 				CC0F90C61F6A8466005D550E /* AppDelegate.swift */,
 				CC0F90C81F6A8466005D550E /* ViewController.swift */,
+				CC0F90F41F6A846D005D550E /* FantasticView.swift */,
 				CC0F90CA1F6A8466005D550E /* Main.storyboard */,
 				CC0F90CD1F6A8466005D550E /* Assets.xcassets */,
 				CC0F90CF1F6A8466005D550E /* LaunchScreen.storyboard */,
@@ -236,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC0F90D11F6A8466005D550E /* LaunchScreen.storyboard in Resources */,
+				CC0F90F91F6A8556005D550E /* FKNavigation.podspec in Resources */,
 				CC0F90CE1F6A8466005D550E /* Assets.xcassets in Resources */,
 				CC0F90CC1F6A8466005D550E /* Main.storyboard in Resources */,
 			);
@@ -264,6 +271,7 @@
 			files = (
 				CC0F90C91F6A8466005D550E /* ViewController.swift in Sources */,
 				CC0F90C71F6A8466005D550E /* AppDelegate.swift in Sources */,
+				CC0F90F51F6A846D005D550E /* FantasticView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

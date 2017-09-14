@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FantasticView: UIView {
+public class FantasticView: UIView {
     
     let colors : [UIColor] = [.red, .orange, .yellow, .green, .blue, .purple]
     
@@ -28,7 +28,7 @@ class FantasticView: UIView {
         
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         // You don't really need to implement this

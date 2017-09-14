@@ -7,12 +7,12 @@ s.description      = <<-DESC
 This fantastic view changes its color gradually makes your app look fantastic!
 DESC
 
-s.homepage         = 'https://github.com/rajaseenivasan8989/FantasticView.git'
+s.homepage         = 'https://github.com/rajaseenivasan8989/FKNavigation.git'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Raja Seenivasan' => 'rajaseenivasan1@gmail.com' }
 s.source           = { :git => 'https://github.com/rajaseenivasan8989/FKNavigation.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '10.0'
-s.source_files = 'FKNavigation/FantasticView.swift'
+s.source_files = 'FKNavigation/*'
 
 end
