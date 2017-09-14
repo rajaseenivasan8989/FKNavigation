@@ -16,6 +16,7 @@
 		CC0F90E71F6A8466005D550E /* FKNavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F90E61F6A8466005D550E /* FKNavigationUITests.swift */; };
 		CC0F90F91F6A8556005D550E /* FKNavigation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CC0F90F81F6A8556005D550E /* FKNavigation.podspec */; };
 		CC0F90FD1F6A91EE005D550E /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F90FC1F6A91EE005D550E /* FantasticView.swift */; };
+		CC0F91051F6A98F8005D550E /* FKDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F91041F6A98F8005D550E /* FKDropDown.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CC0F90E81F6A8466005D550E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC0F90F81F6A8556005D550E /* FKNavigation.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FKNavigation.podspec; sourceTree = "<group>"; };
 		CC0F90FC1F6A91EE005D550E /* FantasticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
+		CC0F91041F6A98F8005D550E /* FKDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FKDropDown.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				CC0F90C61F6A8466005D550E /* AppDelegate.swift */,
 				CC0F90C81F6A8466005D550E /* ViewController.swift */,
+				CC0F91041F6A98F8005D550E /* FKDropDown.swift */,
 				CC0F90FC1F6A91EE005D550E /* FantasticView.swift */,
 				CC0F90CA1F6A8466005D550E /* Main.storyboard */,
 				CC0F90CD1F6A8466005D550E /* Assets.xcassets */,
@@ -270,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC0F90C91F6A8466005D550E /* ViewController.swift in Sources */,
+				CC0F91051F6A98F8005D550E /* FKDropDown.swift in Sources */,
 				CC0F90C71F6A8466005D550E /* AppDelegate.swift in Sources */,
 				CC0F90FD1F6A91EE005D550E /* FantasticView.swift in Sources */,
 			);
@@ -372,6 +376,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -413,6 +418,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -426,7 +432,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.raja.test.FKNavigation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -439,7 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.raja.test.FKNavigation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
