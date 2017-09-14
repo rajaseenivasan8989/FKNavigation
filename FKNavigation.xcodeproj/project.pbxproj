@@ -14,8 +14,8 @@
 		CC0F90D11F6A8466005D550E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0F90CF1F6A8466005D550E /* LaunchScreen.storyboard */; };
 		CC0F90DC1F6A8466005D550E /* FKNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F90DB1F6A8466005D550E /* FKNavigationTests.swift */; };
 		CC0F90E71F6A8466005D550E /* FKNavigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F90E61F6A8466005D550E /* FKNavigationUITests.swift */; };
-		CC0F90F51F6A846D005D550E /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F90F41F6A846D005D550E /* FantasticView.swift */; };
 		CC0F90F91F6A8556005D550E /* FKNavigation.podspec in Resources */ = {isa = PBXBuildFile; fileRef = CC0F90F81F6A8556005D550E /* FKNavigation.podspec */; };
+		CC0F90FD1F6A91EE005D550E /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0F90FC1F6A91EE005D550E /* FantasticView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		CC0F90E21F6A8466005D550E /* FKNavigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FKNavigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC0F90E61F6A8466005D550E /* FKNavigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FKNavigationUITests.swift; sourceTree = "<group>"; };
 		CC0F90E81F6A8466005D550E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC0F90F41F6A846D005D550E /* FantasticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
 		CC0F90F81F6A8556005D550E /* FKNavigation.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FKNavigation.podspec; sourceTree = "<group>"; };
+		CC0F90FC1F6A91EE005D550E /* FantasticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 			children = (
 				CC0F90C61F6A8466005D550E /* AppDelegate.swift */,
 				CC0F90C81F6A8466005D550E /* ViewController.swift */,
-				CC0F90F41F6A846D005D550E /* FantasticView.swift */,
+				CC0F90FC1F6A91EE005D550E /* FantasticView.swift */,
 				CC0F90CA1F6A8466005D550E /* Main.storyboard */,
 				CC0F90CD1F6A8466005D550E /* Assets.xcassets */,
 				CC0F90CF1F6A8466005D550E /* LaunchScreen.storyboard */,
@@ -271,7 +271,7 @@
 			files = (
 				CC0F90C91F6A8466005D550E /* ViewController.swift in Sources */,
 				CC0F90C71F6A8466005D550E /* AppDelegate.swift in Sources */,
-				CC0F90F51F6A846D005D550E /* FantasticView.swift in Sources */,
+				CC0F90FD1F6A91EE005D550E /* FantasticView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

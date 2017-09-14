@@ -13,6 +13,6 @@ s.author           = { 'Raja Seenivasan' => 'rajaseenivasan1@gmail.com' }
 s.source           = { :git => 'https://github.com/rajaseenivasan8989/FKNavigation.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '10.0'
-s.source_files = 'FKNavigation/*'
+s.source_files = '**/*.swift'
 
 end
